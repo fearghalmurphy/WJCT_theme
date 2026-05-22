@@ -1,0 +1,24 @@
+/*
+Theme Name: TwentyTwentyFive Child
+Theme URI: http://fearghal.com
+Author: Fearghal
+Description: A child theme for the WJCT WP Test
+Template: twentytwentyfive
+ */
+
+
+ body {
+	background-color: #f0f8ff; /* aliceblue */
+	font-family: "Oswald", sans-serif;
+	font-style: normal;
+}
+
+h1{
+	font-family: "Palette Mosaic", system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.featured-by {
+	font-size:32px;
+}
