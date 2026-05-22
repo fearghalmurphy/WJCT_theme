@@ -14,17 +14,6 @@ add_action( 'wp_enqueue_scripts', function() {
 });
 
 
-
-function wjct_footer_render( $block_content, $block ) {
-    
-    echo '<pre>'.print_r($block,true).'</pre>';
-
-    if ($block['blockName'] == "core/paragraph" &&  strpos( $block_content, 'Twenty Twenty-Five' ) !== false ) {
-        return '<p class="has-small-font-size">Twenty Twenty-Five - Built for WJCT skills test</p>';
-    }
-    return $block_content;
-}
-
 function wcjt_append_footer_text( $block_content, $block ) {
     
     $footerOnly = false;
